@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0598c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.início{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vw;
+}
+
+.touca{
+    background-color: #fff;
+    width: 70vw;
+    height: 75vh;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rosto{
+    width: 80%;
+    height: 75%;
+    background-color: #fadba8;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.olhos{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.olho{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+    background-color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 35vw;
+    height: 3vw;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+}
+
+button{
+    width: 8vw;
+    height: 4vh;
+    margin: 3vw;
+    background-color: green;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-color: black;
+    color: #fff;
+}
